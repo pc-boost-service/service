@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ускорение ПК & Разработка Ботов | Технический Сервис</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 90%;
+            margin: 40px auto;
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            border: 1px solid #334155;
+        }
+
+        .avatar {
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(135deg, #06b6d4, #3b82f6);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            box-shadow: 0 0 25px rgba(6, 182, 212, 0.4);
+        }
+
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 26px;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            color: #06b6d4;
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            color: #ffffff;
+            text-align: left;
+            margin: 25px 0 15px 0;
+            padding-left: 10px;
+            border-left: 3px solid #06b6d4;
+        }
+
+        .services {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .service-card {
+            background: #0f172a;
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #1e293b;
+            transition: all 0.3s ease;
+        }
+
+        /* Эффект красивого наведения */
+        .service-card:hover {
+            transform: translateY(-2px);
+            border-color: #06b6d4;
+            box-shadow: 0 5px 15px rgba(6, 182, 212, 0.15);
+        }
+
+        .service-card h3 {
+            margin: 0 0 5px 0;
+            color: #f1f5f9;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .price-tag {
+            background: rgba(6, 182, 212, 0.2);
+            color: #22d3ee;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .service-card p {
+            margin: 0;
+            color: #94a3b8;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #06b6d4, #3b82f6);
+            color: white;
+            padding: 14px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(6, 182, 212, 0.3);
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(6, 182, 212, 0.5);
+            filter: brightness(1.1);
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 11px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="avatar">🛠️</div>
+        
+        <h1>CyberMaster PC</h1>
+        <div class="subtitle">Удаленная настройка Windows & Автоматизация</div>
+        
+        <p style="color: #cbd5e1; margin-bottom: 20px; font-size: 14px; line-height: 1.6;">
+            Ваш компьютер начал тормозить, а рутинные задачи отнимают всё время? Профессионально оптимизирую систему и создаю умных ботов для Telegram. Быстро, надежно, удаленно.
+        </p>
+
+        <div class="section-title">Услуги и стоимость</div>
+
+        <div class="services">
+            <div class="service-card">
+                <h3>🚀 Оптимизация и чистка Windows <span class="price-tag">от 500 ₽</span></h3>
+                <p>Полное удаление системного мусора, отключение скрытых тормозящих служб и автозагрузки. Настройка системы под максимальное быстродействие.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🤖 Создание Telegram-ботов <span class="price-tag">от 1 000 ₽</span></h3>
+                <p>Разработка ботов любой сложности для каналов, групп или бизнеса: автоприветствия, выдача контента, сбор заявок и модерация.</p>
+            </div>
+            
+            <div class="service-card">
+                <h3>🛡️ Удаленная помощь и софт <span class="price-tag">от 400 ₽</span></h3>
+                <p>Установка необходимых программ, лечение от вирусов, исправление системных ошибок через безопасное подключение AnyDesk / TeamViewer.</p>
+            </div>
+        </div>
+
+        <a href="https://t.me/твой_ник" class="btn" target="_blank">Получить бесплатную консультацию</a>
+        
+        <footer>© 2026 Сервис оптимизации CyberMaster. Все права защищены.</footer>
+    </div>
+
+</body>
+</html>
